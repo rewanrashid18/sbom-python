@@ -12,3 +12,8 @@ To use the command simply run:
 ```
 python sbom.py /absolute/path/to/your/repos
 ```
+
+# Project Assumptions
+1. Repositories in directory are valid git repositories
+2. All directories that containg a `package.json` also contain a `package-lock.json`
+3. devDependencies are not of interest for the SBOM
